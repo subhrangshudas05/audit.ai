@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <h1>⚡ Audit.ai</h1>
+  <p><b>The "Conversion-Killer" Detector for Modern Web Experiences</b></p>
 
-## Getting Started
+  [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+  [![Gemini](https://img.shields.io/badge/AI-Gemini_2.5_Flash-blue?style=for-the-badge&logo=google-gemini)](https://ai.google.dev/)
+  [![Tailwind](https://img.shields.io/badge/CSS-Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Audit.ai** is an advanced, AI-native web auditing engine built by **Digitify**. It bridges the gap between raw performance data and actionable UX strategy. By emulating real-world user behavior and leveraging **multimodal AI**, Audit.ai provides a "Senior UX Architect" perspective on any URL in under 60 seconds.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ✨ Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **🧠 Gemini 2.5 Flash Integration:** Utilizes the latest multimodal vision model to analyze UI patterns, layout hierarchy, and "conversion-leaks."
+- **📱 True Device Emulation:** Powered by **Puppeteer** to simulate actual Mobile (iPhone 15 Pro context) and Desktop (1440p) environments.
+- **🎬 Cinematic UI:** A high-end user experience built with **Framer Motion** and **GSAP** for smooth, "editorial-style" transitions.
+- **🔒 Zero-Storage Architecture:** Privacy-first design. Screenshots are processed as ephemeral Base64 streams—never touching a disk—ensuring data remains secure and serverless-ready.
+- **⚡ Real-time Feedback:** Instantly generates a bento-style audit report covering **Score, Analysis, Fix, and Business Impact.**
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Layer | Technology |
+| :--- | :--- |
+| **Framework** | Next.js 15 (App Router) |
+| **Animation** | Framer Motion + GSAP |
+| **Engine** | Puppeteer (Headless Chromium) |
+| **AI Model** | Google Gemini 2.5 Flash |
+| **Styling** | Tailwind CSS |
+| **Carousel** | Swiper.js |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/subhrangshu56/audit.ai.git](https://github.com/subhrangshu56/audit.ai.git)
+   cd auditai
