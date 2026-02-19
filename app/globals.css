@@ -10,6 +10,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --font-syne: var(--font-syne), sans-serif;
+  --font-bodoni: var(--font-bodoni), serif;
+  --font-six-caps: var(--font-six-caps), sans-serif;
+  --font-poppins: var(--font-poppins), sans-serif;
+  --font-federo: var(--font-federo), sans-serif;
+  --font-tiktok: var(--font-tiktok), sans-serif;
+  --font-oswald: var(--font-oswald), sans-serif;
+  --font-archivo: var(--font-archivo), sans-serif;
+  --font-manrope: var(--font-manrope), sans-serif;
+  --font-architects: var(--font-architects-daughter), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
